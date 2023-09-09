@@ -1,4 +1,5 @@
 # Sustainable Development Goal (SDG) Region Prediction
+![SDG](sdg.png)
 
 ## Abstract
 
@@ -19,6 +20,7 @@ Three different Naive Bayes classifiers were tested, including Gaussian NB, Mult
 The literature review covers research studies that have utilized the Naive Bayes algorithm for various purposes, including water quality prediction, purchase prediction, healthcare diagnosis, human behavior impact analysis, food crop planting recommendation, academic performance classification, and spam comment classification. The studies aim to fill research gaps in their respective fields and demonstrate the effectiveness of the Naive Bayes algorithm. The accuracy of the Naive Bayes algorithm varied between 62.5% to 96.15%, depending on the dataset used and research objectives.
 
 ## Proposed Methodology
+![Proposed Methodology](res.png)
 
 ### Data Acquisition
 
@@ -34,10 +36,11 @@ The initial dataset contained 3781 rows X 32 columns. Data preprocessing include
 - Conversion of data from 'Object' type to numerical data using LabelEncoder and dictionaries.
 
 #### Original Dataset
-![Original Dataset](original_dataset.jpg)
+![Original Dataset](original_dataset.png)
 
 #### Filtered Dataset
-![Filtered Dataset](filtered_dataset.jpg)
+![Filtered Dataset](filtered_dataset1.png)
+![Filtered Dataset](filtered_dataset2.png)
 
 ### Proposed Algorithm (Implementation)
 
@@ -59,4 +62,17 @@ Bayes’ Theorem:  P(y|x) = P(x|y) ∗ P(y)/P(x)
 - The dataset includes 6 SDG regions.
 - Evaluation metrics are represented in tabular and graphical forms.
 
-![Experimental Result](res.jpg)
+![Experimental Result](result1.png)
+![Experimental result](result2.png)
+
+### Conclusion
+
+In conclusion:
+
+- The Naive Bayes classification algorithm achieved an impressive accuracy rate of 92.15% on the SDG 6 dataset, demonstrating its effectiveness in predicting the availability and sustainable management of water and sanitation.
+
+- It's worth noting that the model performed better when dealing with numeric data, necessitating the conversion of categorical data to numerical format during pre-processing.
+
+- This project serves as a strong foundation for further research in this domain. Future work can focus on improving the model's accuracy even further and exploring alternative machine-learning approaches to predict the success of interventions aimed at achieving SDG 6.
+
+Your contributions and ideas are welcome to enhance the project and drive progress toward sustainable development goals.
